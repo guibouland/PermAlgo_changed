@@ -1,0 +1,22 @@
+citHeader("To cite package 'PermAlgo' in publications use:")
+     
+	 if(!exists("meta") || is.null(meta)) meta <- packageDescription("PermAlgo")	 
+	 year <- sub(".*(2[[:digit:]]{3})-.*", "\\1", meta$Date)
+	 vers <- paste("R package version", meta$Version)
+	 
+     citEntry(entry="Manual",
+              title = "PermAlgo: Permutational algorith to generate event times conditional on a covariate matrix including time-dependent covariates",
+              author = personList(as.person("Marie-Pierre Sylvestre"),
+                                  as.person("Thad Evans"),
+                                  as.person("Todd MacKenzie"),
+                                  as.person("Michal Abrahamowicz")),
+              year = 2010,
+              note = vers,
+     
+              textVersion =
+              paste("Marie-Pierre Sylvestre, Thad Evans, Todd MacKenzie, and Michal Abrahamowicz (", year,
+"). PermAlgo: Permutational algorith to generate event times conditional on a covariate matrix including time-dependent covariates. ",
+vers, ".", sep=""))
+
+
+

@@ -1,0 +1,8 @@
+51499cdafbddff29207d877a4cf18b6b *DESCRIPTION
+92737bea12fb6e8d05dea14ddb839d73 *NAMESPACE
+3812f0eeeb617b37c01297dc758ff541 *R/PermAlgo-internal.R
+0ad8e9dffe108aa5f5742ba8d62d77bb *R/permalgorithm.R
+cf9f85f8e57c66e868f1e45509b16599 *inst/CITATION
+8e8949f0625b141e30084e2ad671c5d8 *man/PermAlgo-internal.Rd
+3180dfd227b943029cc6e6bcc0ad5d5c *man/PermAlgo-package.Rd
+2cff5f174f6f5b915413fc11bfbcd4e9 *man/permalgorithm.Rd
